@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+ 
+   h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  main {
+    margin: 20px;
+  } 
+  
+  .inforStudent {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .inforStudent h3 {
+    margin-top: 0;
+  }
+  
+  .inforStudent span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .listStudent {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  
+  .listStudent th,
+  .listStudent td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .listStudent th {
+    background-color: black;
+    color: #fff;
+  }
+  
+  .listStudent td {
+    border-bottom: 1px solid gray;
+  }
+  
+  .searchStudent {
+    margin-bottom: 20px;
+  }
+  
+  .search {
+    padding: 5px;
+  }
+  
+  .searchBtn {
+    padding: 5px 10px;
+    background-color:black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .searchBtn:hover {
+    background-color: black;
+  }
+  

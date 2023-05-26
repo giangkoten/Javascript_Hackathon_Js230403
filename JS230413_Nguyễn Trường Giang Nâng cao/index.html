@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Feedback TA</h1>
+    </header>
+    <main>
+      <div class="inforStudent">
+        <h3>Thông tin học viên</h3>
+        <span>
+          Họ và tên <br /><input
+            type="text"
+            placeholder="vui lòng nhập tên"
+            class="name"
+          />
+        </span>
+        <br />
+        <span
+          >Email <br /><input
+            type="text"
+            placeholder="vui lòng nhập email"
+            class="email"
+        /></span>
+        <br />
+        <span
+          >Số điện thoại <br /><input
+            type="text"
+            placeholder="vui lòng nhập số điện thoại"
+            class="phoneNumber"
+        /></span>
+        <br />
+        <span
+          >Quê quán <br /><input
+            type="text"
+            placeholder="vui lòng nhập địa chỉ quê quán"
+            class="address"
+        /></span>
+        <br />
+        <span
+          >Giới tính <br /><input type="radio" class="male" name="gender" /> Nam
+          <input type="radio" class="female" name="gender" /> Nữ
+        </span>
+        <br />
+        <span><button class="btn" onclick="save()">Lưu lại</button></span>
+      </div>
+      <div>
+        <table border="1" class="listStudent"></table>
+      </div>
+      <div class="searchStudent">
+        <input type="text" class="search" placeholder="Tìm kiếm theo tên" />
+        <button class="searchBtn" onclick="searchStudents()">Tìm kiếm</button>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
